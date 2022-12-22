@@ -71,7 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Expanded(
                     flex: 12,
-                    child: Text("web"),
+                    child: SingleChildScrollView(child: Text(body)),
                   ),
                   Expanded(
                       flex: 2,
