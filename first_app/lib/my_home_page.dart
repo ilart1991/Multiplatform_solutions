@@ -71,9 +71,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   Expanded(
                     flex: 12,
-                    child: ListView(
-                      children: [Text(body)],
-                    ),
+                    child: Text("web"),
                   ),
                   Expanded(
                       flex: 2,
